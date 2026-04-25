@@ -115,3 +115,55 @@ display: flex;
     align-items: center;
     gap: 4px;
     z-index: 4;
+
+}
+.right-panel {
+    width: 440px;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 50px;
+
+
+
+}
+.right-panel h2{
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 28px;
+    color: white;
+align-self: flex-start;
+
+}
+.form-group h2{
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 28px;
+    color: white;
+    align-self: flex-start;
+}
+
+.form-group{
+    width: 100%;
+    margin-bottom: 14px;
+
+}
+.form-group input{
+    width: 100%;
+    padding: 14px 18px;
+    background-color: #121212;
+    border: 1px solid #2e2b2b;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 0.95rem;
+    outline: none;
+    transform: border-color 0.2s;
+}
+.form-group input::placeholder{
+    color: #888;
+}
+.form-group input:focus{
+    border-color: #555;
+}
